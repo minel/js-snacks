@@ -16,5 +16,5 @@ var newObj = obj.filter(f => {
   return (x.name)
 });
 
-console.log(newObj)
-console.log(nmap)
+console.log(newObj);
+console.log(nmap);
