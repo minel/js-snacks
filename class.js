@@ -26,12 +26,12 @@ let s1 = new Shoe('Nike', 'Sport', 42);
 let s2 = new Shoe(2, 3, 5);
 let s3 = new Shoe('Adidas', 'Training', 40);
 
-console.log(typeof Shoe);        //function
-console.log(typeof s1);          //object
-console.log(s1.toString());      //Nike Sport in size 42
-console.log(s2.equals(s3));      //false
-console.log(s3.equals(s3));      //true
-console.log(Shoe.createdAny());  //true
+console.log(typeof Shoe);           //function
+console.log(typeof s1);             //object
+console.log(s1.toString());         //Nike Sport in size 42
+console.log(s2.equals(s3));         //false
+console.log(s3.equals(s3));         //true
+console.log(Shoe.createdAny());     //true
 
 
 //Inheritence example
